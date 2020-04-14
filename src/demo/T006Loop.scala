@@ -9,5 +9,18 @@ object Loop {
       i += 1
     }
     println(sum)
+    
+    val greetInts = new Array[Int](3)
+    greetInts(0) = 1
+    greetInts(1) = 2
+    greetInts(2) = 3
+    
+    greetInts.foreach(arg => println(arg))
+    greetInts.foreach((arg: Int) => println(arg))
+    greetInts.foreach(print)
+    
+    for (greetInt <- greetInts) {
+      print(greetInt)
+    }
   }
 }
