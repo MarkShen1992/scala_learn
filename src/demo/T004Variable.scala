@@ -1,7 +1,7 @@
 
 package demo
 
-object TestVariable {
+object T004Variable {
   def main(args: Array[String]): Unit = {
     println(1 + 2)
     println(3.14)

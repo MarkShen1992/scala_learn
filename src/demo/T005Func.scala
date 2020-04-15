@@ -1,6 +1,6 @@
 package demo
 
-object TestFunc {
+object T005Func {
   def max(x: Int, y: Int): Int = {
     if (x > y) x
     else y
