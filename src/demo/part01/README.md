@@ -1,0 +1,1 @@
+[Scala中object、class与trait的区别](https://blog.csdn.net/fjse51/article/details/52152362)
